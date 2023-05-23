@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+.image{
+    width: 100%;
+    height: 220vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(./img_forest.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ 
+}
+.image-back{
+    width: 100%;
+    height: 220vh;
+   background-color: rgba(29, 115, 149, 0.456);
+    font-size: 15px;
+    font-weight: 300;
+    font-variant: normal;
+    color: whitesmoke;
+}
+.image-back h1{
+    margin-left:35%;
+}
+.input-box{
+        width: 60%;
+        height: 200vh;
+       background-color:rgba(0, 128, 0, 0.563) ;
+        display: flex;
+        justify-content: center;
+       align-items: flex-start;
+       margin-top: 20px;
+       margin-left: 20%;
+       
+}
+table{
+    display: flex;
+    gap: 20px;
+}
+tr label{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    color: whitesmoke;
+
+}
+tr input{
+    margin-bottom: 15px;
+    margin-left: 50px;
+    border-radius: 6px;
+    font-size: 24px;
+
+}
+
+tr select{
+    margin-top: 10px;
+    width:840px;
+    margin: 10px;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: 45px;
+font-size: 24px;
+
+}
+select:hover{
+    border: 3px solid rgb(111, 20, 20);
+    background-color: rgb(124, 186, 135);
+    transform: scale(0.95, 1.1);
+  
+}
+tr #age{
+    margin-top: 10px;
+    width:840px;
+    margin: 10px;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: 45px;
+font-size: 24px;
+}
+input:checked{
+    width: 20px;
+    height: 20px;
+
+}
+input:hover{
+    border: 3px solid rgb(111, 20, 20);
+    background-color: rgb(124, 186, 135);
+    transform: scale(0.95, 1.1);
+}
+tr #textarea{
+    margin-top: 5px;
+        font-size: 18px;
+        font-weight: 250;
+        margin-left: 65px;
+      
+}
+textarea:hover{
+    border: 3px solid rgb(111, 20, 20);
+    background-color: rgb(124, 186, 135);
+    
+}
+ #submit {
+    margin-top: 40px;
+    margin-left: 160px;
+    border-radius: 6px;
+    font-size: 24px;
+    background-color: rgb(6, 52, 6);
+    color: #ffff;
+   width: 500px;
+   height: 40px;
+}
